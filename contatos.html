@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset ="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width= device-width,inital-scale=1.0">
+	<title>meu site</title>
+	<link rel ="stylesheet" href="css/style.css">
+</head>
+<body> 
+
+
+   <nav>
+	<img id = "logo" src="img/luffy.png" alt="logo">
+	<ul  id="menu">
+	<a href="index.html"> <li>home</li></a>
+	<a href="contatos.html"><li>contato</li></a>
+	<a href="sobre.html"><li>sobre</li></a>
+     </ul>
+	</nav>
+		<section>
+			<div id="div-form">
+				<form method="get" action="contatos.php">
+				<label class="styl" >digite seu nome</label>
+				   <input  class="styl" type="text" name="nome">	
+				   <label class="styl" >sexo</label>
+						<input class="styl" type="radio"  name="sexo" value="masculino">
+						<label class="styl" for="sexo-m">masculino</label>
+						<input class="styl"type="radio"  name="sexo" value="feminino">
+						<label class="styl" for="sexo-f">feminino</label>
+					<br><label class="styl"> digite seu email</label>
+				   <input class="styl"type="email" name="email">
+					<label class="styl" for="senha">senha</label>
+					<input class="styl" type="password" id="senha" name="senha" required><br>
+					<label>data nasc</label>
+					<input  class="styl"type="date" name="data">
+					<label  class="styl" for="estado">estado</label>
+						<select class="styl" name="estado"><br>
+							<option value="BA">BA</option><br>
+							<option value="PI">PI</option><br>
+							<option value="PB">PB</option><br>
+							<option value="AL">AL</option><br>
+							<option value="SE">SE</option><br>
+							<option value="RN">RN</option><br>
+							<option value="MA">MA</option><br>
+							<option value="CE">CE</option><br>
+							<option value="PB">PB</option><br>
+							<option value="PE">PE</option><br>
+						</select><br>
+				   <label class="styl">informe o motivo do contato</label>
+				   <select class="styl" name="tipo-contato">
+						<option value="duvida">duvida</option>
+						<option value="reclamacao">reclamacao</option>
+						<option value="informacao">informacao </option>
+						
+				   </select>
+				   <br><label class="styl">primeiro numero</label>
+				   <input class="styl" type="text" name="numero1">
+				   <label class="styl">segundo  numero</label>
+				   <input class="styl" type="text" name="numero2"></br>
+				   	   <input  class="styl"type="submit" value="enviar">
+					       <input  class="styl"  type="reset"  value="resetar">
+				</form>
+			</div>
+		</section>
+	
+
+
+
+
+
+	<footer>
+	<div id="rodape">
+	<a href="https://onepieceex.net/manga-1052/" target="_blanck"><h2 class="test">spoiler 1052</h2></a>
+	<a href="https://onepieceex.net/episodio-1020/" target="-blanck"><h2 class="test">episodio 1020</h2></a>
+	<a href="https://onepieceex.net/haki-das-rainhas-capitulo-1050/" target="_blanck"><h2 class="test">raki das rainhas</h2></a>
+	<a href="https://onepieceex.net/manga-1051/" target="_blanck"><h2 class="test">manga 1051</h2></a>
+	</div>
+	
+	</footer>
+</body>
+	
+
+</html>

@@ -93,15 +93,33 @@ nav{
 	
 	
 	color:#F8F8FF;
-    margin-left:150px;
+	 margin-left:100px;
 	text-align:left;
+   
  }
  .test:hover{
 	 border-radius:5px;
 	 background-color:#F8F8FF;
 	 color:#b73b6a;
-	 margin-left:10px;
+
 	 display:inline-block;
  }
  
- 
+ #div-form{
+	 padding:20px;
+     background-color:#7e428a;
+	 color:#F8F8FF;
+	 border-radius:5px;
+     margin-top: 25px;
+	 margin-bottom:25px;
+
+	 
+
+ }
+ .styl :hover{
+	  border-radius:5px;
+	 background-color:#F8F8FF;
+	 color:#b73b6a;
+	 display:inline-block;
+	 
+ }
